@@ -1,0 +1,49 @@
+body {
+    background-color: #808080;
+}
+
+h1 {
+    color: #5CE62E;
+    text-align: center;
+   	font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color: #5CE62E;
+    font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+    color: #5CE62E;
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    color: #5CE62E;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+text1 {
+	color: #5CE62E;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+}
+
+table, td, th {
+    border: 1px solid #5CE62E;
+    height: 20px;
+    vertical-align: bottom;
+}
+section2 {
+	width:48%;
+    float:right;
+    padding:5px;
+    position: absolute;   
+}
+section {
+    width:48%;
+    float:left;
+    padding:10px;	 	 
+}
+

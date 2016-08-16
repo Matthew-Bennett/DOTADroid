@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>DOTADROID</title>
+<h1>DOTA2 Drafting Assistant Prototype</h1>
+
+<!--Parsing code took from W3Schools - http://www.w3schools.com/php/php_xml_simplexml_read.asp-->
+<?php
+	libxml_use_internal_errors(true);
+	$myXMLData ="https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?format=XML&key=F132852481FC966F6B0185C7EA6BE5A3"; 
+	xml = simplexml_load_string($myXMLData);
+    print_r($xml);
+	echo EHM?!;
+?>
+
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD HTML 4.01 Transitional/EN" "http:/www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href='http:/fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+   body { background:  #808080;
+		  font-family: 'Dosis', sans-serif;
+		  color: #5CE62E;
+		}
+</style>
+<title>DOTADROID</title>
+<link rel="icon" type="image/png" href="imgs/DotaDroid.png" />
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+      <div class="container">
+        <div class="navbar-header">
+		<a href="index.jsp" ><img src="imgs/DotaDroid.png" height="50" width="50"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.jsp">DOTADroid</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.jsp">Drafting Assistant</a></li>
+            <li><a href="DraftGame.jsp?round=0">Draft Game</a></li>
+           
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<section>
+</br></br>
+<div class="col-lg-2">
+<form action = "index.jsp" method = "POST">
+<h3>Friendly Team Picks</h3>
+<select class="form-control" width="2%" name="FriendlyHeroPick1" >
+<option value ="0">Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+
+<select class="form-control" name="FriendlyHeroPick2">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="FriendlyHeroPick3">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="FriendlyHeroPick4">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="FriendlyHeroPick5">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+
+<h3>Enemy Team Picks</h3>
+<select class="form-control" name="EnemyHeroPick1" value>
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="EnemyHeroPick2">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="EnemyHeroPick3">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="EnemyHeroPick4">
+<option value="0" >Choose a hero!</option>
+
+<option value="1">Anti-mage</option>
+
+</select>
+<select class="form-control" name="EnemyHeroPick5">
+<option value="0" >Choose a hero!</option>
+ 
+<option value="1">Anti-mage</option>
+
+</select>
+</br>
+</br>
+<h3>With: </h3>
+				<table class="table table-bordered" width=30% border="1"><tr>
+				<td><img src="imgs/1.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/2.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/3.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/4.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/5.png" alt="imgs/0.png"/></td>
+				</tr></table>			
+<h3>Your bans:</h3>
+
+				<table class="table table-bordered" width=30% border="1"><tr>
+				<td><img src="imgs/11.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/12.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/13.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/14.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/15.png" alt="imgs/0.png"/></td>					 
+				</tr></table>
+</div>
+
+<div class="col-lg-2">
+<h3>Friendly Team Bans</h3>
+<select class="form-control" name="FriendlyHeroBan1">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="FriendlyHeroBan2">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="FriendlyHeroBan3">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="FriendlyHeroBan4">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="FriendlyHeroBan5">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<h3>Enemy Team Bans</h3>
+<select class="form-control" name="EnemyHeroBan1">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="EnemyHeroBan2">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="EnemyHeroBan3" >
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="EnemyHeroBan4">
+<option value="0" >Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+<select class="form-control" name="EnemyHeroBan5">
+<option value="0">Choose a hero!</option>
+ <option value="1">Anti-mage</option> 
+</select>
+</br>
+<div class="row">
+    <div class="col-lg-1"><button type="submit" class="btn btn-lg btn-default">Submit</button></div>
+</div>
+
+</form>
+</div>
+
+   
+
+				
+				
+</div>
+	
+
+</div>
+
+<div class="col-lg-1"></div>
+<div class="col-lg-3">
+<h3>Suggestions </h3>
+<table class="table table-bordered" width=40% border="2">
+  <col width="15%">
+  <col width="5%">
+  <tr>
+    <th>Pick</th>
+    <th>Win %</th> 
+  </tr>
+
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>  
+</table>
+<table class="table table-bordered" width=40% border="1">
+  <col width="15%">
+  <col width="5%">
+  <tr>
+    <th>Ban</th>
+    <th>Win %</th> 
+  </tr>
+
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>
+  <tr>
+  	<td></td>
+  	<td></td>
+  </tr>  
+</table>
+
+<h3>Against:</h3>	
+				<table class="table table-bordered" width=30% border="1"><tr>
+				<td><img src="imgs/6.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/7.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/8.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/9.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/10.png" alt="imgs/0.png"/></td>
+				</tr></table>
+<h3>Enemy bans:</h3>		
+				<table class="table table-bordered" width=30% border="1"><tr>				
+				<td><img src="imgs/16.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/17.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/18.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/19.png" alt="imgs/0.png"/></td>
+				<td><img src="imgs/20.png" alt="imgs/0.png"/></td>
+				</tr></table>	
+</div>
+<div class="col-lg-3"></div>
+</body>
+</html>
